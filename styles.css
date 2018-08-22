@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: white;
+  background-color: #FF00FF;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  border: 8px solid white;
+  width: 900px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.links {
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #e0ffff;
+  background-color: darksalmon
+  
+}
