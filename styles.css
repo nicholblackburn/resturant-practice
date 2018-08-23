@@ -6,7 +6,7 @@
 
 .menu-container {
   color: white;
-  background-color: #FF00FF;
+  background-color: rgb(202, 29, 136);
   padding: 10px 0;
   display: flex;
   justify-content: center;
@@ -31,6 +31,30 @@
 
 .header-container {
   color: #e0ffff;
-  background-color: darksalmon
+  background-color: darksalmon;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
   
+}
+
+.footer {
+  display: flex;
+  justify-content: baseline;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: salmon;
+  height: 200px;
+  flex: 1;
 }
